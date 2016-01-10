@@ -50,3 +50,6 @@ gem 'sprockets', '2.11.0'
 
 #Add Devise for user authentication
 gem 'devise', '>= 3.2.4'
+
+#Add Simple Form
+gem 'simple_form'
