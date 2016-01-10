@@ -47,3 +47,6 @@ end
 #Add bootstrap-sass
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
+
+#Add Devise for user authentication
+gem 'devise', '>= 3.2.4'
