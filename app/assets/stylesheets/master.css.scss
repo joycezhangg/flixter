@@ -4,17 +4,26 @@ body {
   color: #f0f0f0;
 }
 
-
 h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
   color: #f0f0f0;
+}
+
+.Site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.Site-content {
+  flex: 1;
 }
 
 .btn {
   border-radius: 0;
 }
 
-.navbar {
+.navbar-fixed {
   border-radius: 0; 
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 200;
